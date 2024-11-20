@@ -1,0 +1,16 @@
+title: Emergenics
+description: Documentation and resources for Emergenics.
+baseurl: "" # Leave blank if deploying to the root URL
+url: "http://localhost:4000" # Change this to your production URL later
+theme: minima # Optional: Choose a Jekyll theme
+collections:
+  books:
+    output: true
+    permalink: /books/:name/
+
+defaults:
+  - scope:
+      path: "_posts/books"
+    values:
+      layout: post
+      categories: books

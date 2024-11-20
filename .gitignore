@@ -7,3 +7,31 @@ __pycache__/
 *.log
 emergenics/
 
+# Logs and temp files
+*.log
+*.tmp
+*.bak
+*.swp
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Generated site files
+_site/
+.sass-cache/
+
+# Node modules (if using JavaScript tools)
+node_modules/
+
+# Bundler and Ruby
+.bundle/
+Gemfile.lock
+
+# Jekyll metadata
+.jekyll-metadata
+
+# Other config
+*.env
+
+
