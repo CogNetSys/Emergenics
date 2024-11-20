@@ -1,0 +1,12 @@
+{% assign book_config = site.data.books[page.book] %}
+
+<header>
+  <h1>{{ book_config.title }}</h1>
+  <p>{{ book_config.description }}</p>
+  <p><strong>Author:</strong> {{ book_config.author }}</p>
+  <p><strong>Year:</strong> {{ book_config.year }}</p>
+</header>
+
+<main>
+  {{ content }}
+</main>

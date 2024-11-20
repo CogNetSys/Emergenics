@@ -16,9 +16,13 @@ emergenics/
 # Operating system files
 .DS_Store
 Thumbs.db
+*.swp
+*.bak
+*~
 
 # Generated site files
 _site/
+.jekyll-cache/
 .sass-cache/
 
 # Node modules (if using JavaScript tools)
@@ -26,6 +30,7 @@ node_modules/
 
 # Bundler and Ruby
 .bundle/
+/vendor/
 Gemfile.lock
 
 # Jekyll metadata
@@ -33,5 +38,4 @@ Gemfile.lock
 
 # Other config
 *.env
-
 
