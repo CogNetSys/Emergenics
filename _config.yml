@@ -1,7 +1,7 @@
 title: Emergenics
 description: Documentation and resources for Emergenics.
 baseurl: "" # Leave blank for root deployment
-url: "https://cognetsys.github.io" # Update with your production URL
+url: "https://cognetsys.github.io/Emergenics" # Update with your production URL
 theme: minima
 
 collections:
